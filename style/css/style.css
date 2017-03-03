@@ -1,0 +1,74 @@
+html, body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F1EED6;
+  color: #65645A;
+  border-top: 50px solid white;
+  border-bottom: 50px solid white; }
+
+body {
+  display: flex;
+  max-width: 1200px;
+  margin: 30px auto;
+  font-family: "Times New Roman", serif;
+  font-size: 15px;
+  max-height: 1150px;
+  border: none; }
+  body #void {
+    display: flex; }
+    body #void #moi {
+      color: #65645A;
+      display: flex;
+      flex-direction: column; }
+
+table {
+  text-align: justify;
+  border-collapse: collapse;
+  clear: right;
+  padding: 10px 10px 10px 10px; }
+
+td {
+  padding: 10px 10px 10px 10px; }
+
+tr td:first-child {
+  min-width: 70px; }
+
+#a {
+  font-size: 1.25em;
+  color: lightblack;
+  text-align: center;
+  border-bottom: solid white;
+  border-top: solid white; }
+
+#date {
+  background-color: white; }
+
+#smallscreen {
+  text-align: center;
+  font-size: 2em;
+  color: lightblack;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  display: none;
+  text-align: center; }
+
+figure img {
+  width: 150px;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px; }
+figure figcaption {
+  text-align: center;
+  color: #65645A;
+  line-height: 25px; }
+  figure figcaption em {
+    line-height: 25px; }
+    figure figcaption em div {
+      border-top: solid white;
+      padding-bottom: 10px; }
