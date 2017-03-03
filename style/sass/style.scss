@@ -1,13 +1,14 @@
 $color:lightblack;
 $colorfond2: white;
 $colorBlocks:#65645A;
+$backgroundcolor:#F1EED6;
 
 
 html{
 	font-family: "Times New Roman", serif;
 	margin: 0;
 	padding: 0;
-	background-color: #F1EED6;
+	background-color: $backgroundcolor;
 	color: $colorBlocks;
 	border: {
 		top: 50px solid $colorfond2;
@@ -50,6 +51,7 @@ min-width: 70px;}
 font-size: 1.25em;
 color: $color;
 text-align: center;
+font-weight: bold;
 
 	border:{
 		bottom: solid $colorfond2;

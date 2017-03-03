@@ -38,6 +38,7 @@ tr td:first-child {
   font-size: 1.25em;
   color: lightblack;
   text-align: center;
+  font-weight: bold;
   border-bottom: solid white;
   border-top: solid white; }
 
