@@ -9,18 +9,16 @@ html, body {
 
 body {
   display: flex;
-  max-width: 1200px;
+  flex-wrap: wrap;
   margin: 30px auto;
   font-family: "Times New Roman", serif;
   font-size: 15px;
-  max-height: 1150px;
-  border: none; }
+  border: none;
+  justify-content: center; }
   body #void {
     display: flex; }
     body #void #moi {
-      color: #65645A;
-      display: flex;
-      flex-direction: column; }
+      color: #65645A; }
 
 table {
   text-align: justify;
@@ -45,15 +43,6 @@ tr td:first-child {
 #date {
   background-color: white; }
 
-#smallscreen {
-  text-align: center;
-  font-size: 2em;
-  color: lightblack;
-  padding-top: 40px;
-  margin-bottom: 40px;
-  display: none;
-  text-align: center; }
-
 figure img {
   width: 150px;
   display: inline-block;
@@ -73,3 +62,32 @@ figure figcaption {
     figure figcaption em div {
       border-top: solid white;
       padding-bottom: 10px; }
+
+#smallscreen {
+  text-align: center;
+  font-size: 2em;
+  color: lightblack;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: inline;
+  width: 100%; }
+
+.display {
+  display: none; }
+
+@media screen and (min-width: 700px) {
+  #smallscreen {
+    display: none; }
+
+  .display {
+    display: block; }
+
+  body {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px auto; }
+    body #void #moi {
+      color: #65645A; } }
+
+/*# sourceMappingURL=style.css.map */
