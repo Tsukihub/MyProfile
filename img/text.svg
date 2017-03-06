@@ -9,7 +9,7 @@
 
           <use xlink:href="#MyPath" fill="none"/>
 
-          <text font-family="Times New Roman" font-size="60.5" fill="#65645A">
+          <text font-family="Times New Roman" font-size="60.5" fill="#183152">
             <textPath xlink:href="#MyPath">
               Web Développeur stagiaire
             </textPath>
