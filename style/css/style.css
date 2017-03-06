@@ -30,7 +30,8 @@ td {
   padding: 10px 10px 10px 10px; }
 
 tr td:first-child {
-  min-width: 70px; }
+  min-width: 70px;
+  border-top: 0.4px dotted #E1E6FA; }
 
 #a {
   font-size: 1.25em;

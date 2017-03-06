@@ -43,7 +43,8 @@ $backgroundcolor:#E1E6FA;
 	td {
 	padding : 10px 10px 10px 10px;}
 	tr td:first-child {
-	min-width: 70px;}
+	min-width: 70px;
+	border-top: 0.4px dotted $backgroundcolor;}
 	#a {
 	font-size: 1.25em;
 	color: $color;
